@@ -10,10 +10,12 @@ JavaScript
 
 ## Screenshot
 ## Desktop
-Screenshot (13)
+![Screenshot (16)](https://github.com/user-attachments/assets/d718e158-cf1e-4784-9a1a-6bf129f6546a)
+
 
 ## Mobile
-Screenshot (14)
+![Screenshot (14)](https://github.com/user-attachments/assets/e688fa59-b8b7-4292-a845-5e3f0ecaafa7)
+
 
 ## Push code to github
 1. git add .
