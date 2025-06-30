@@ -1,0 +1,221 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    color: white;
+}
+
+header {
+    background-color: rgb(26, 23, 23);
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hamburger{
+    display: none;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+nav li{
+    list-style: none;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+main{
+    background-color: #09090b;
+    padding: 20px;
+    padding: 30px;
+}
+
+.text_con{
+    margin: 20px 0px;
+}
+
+main img{
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.responsive{
+    margin: 40px 0px;
+    display: grid;
+    grid-template-columns: 1fr 30rem;
+}
+
+.responsive h2{
+    font-size: 40px;
+    margin: 15px 0px;
+}
+
+.responsive p{
+    font-size: 20px;
+}
+
+.tech_con{
+    text-align: center;
+}
+
+.tech_head{
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 0px;
+}
+
+.tech_stack{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.tech_div{
+    margin: 20px 0px;
+}
+
+.technology{
+    font-size: 25px;
+    margin: 10px 0px;
+}
+
+.tech{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.footer {
+    background-color: #222;
+    color: #ddd;
+    padding: 40px 20px 10px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .social-icons a {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #ccc;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    color: #ffcc00;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding: 15px 0;
+    border-top: 1px solid #444;
+    font-size: 14px;
+  }
+
+@media (max-width: 768px)  {
+    header{
+        display: flex;
+        align-items: center;
+    }
+
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        gap: 5px;
+      }
+      
+      .hamburger .bar {
+        height: 3px;
+        width: 25px;
+        background-color: white;
+        border-radius: 5px;
+      }
+
+    nav{
+        background-color: rgb(26, 23, 23);
+        display: block;
+        text-align: center;
+        position: absolute;
+        top: -100%;
+        left: 0%;
+        width: 100%;
+        padding: 20px 0px;
+        transition: ease-in 500ms;
+    }
+
+    nav li{
+        padding: 30px 0px;
+        font-size: x-large;
+    }
+
+    main{
+        display: block;
+        padding: 20px;
+    }
+
+    .images{
+        border-radius: 20px;
+    }
+
+    .responsive{
+        margin: 40px 0px;
+        display: block;
+    }
+
+    .responsive h2{
+        margin: 15px 0px;
+    }
+
+    .responsive p{
+        font-size: 25px;
+    }
+
+    .tech_stack{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .tech_div{
+        margin: 20px 0px;
+    }
+
+    .technology{
+        font-size: 30px;
+        margin: 10px 0px;
+    }
+    
+    .tech{
+        font-size: 25px;
+        margin:10px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+      }
+    
+      .footer-column {
+        margin: 20px 0;
+      }
+    
+      .social-icons a {
+        margin: 0 8px;
+      }
+
+    .active{
+        top: 8%;
+        left: 0%; 
+    }
+}
